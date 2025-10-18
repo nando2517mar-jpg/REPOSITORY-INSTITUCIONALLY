@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BUSCADOR DE TEMAS BIBLICOS </title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1> Versiculo por tema </h1>
+        <p> Introduce un tema (por ej: Amor, fe, esperanza)</p>
+    <input type="text" id="temaInput" placeholder="Escribe tu tema Biblico aquí...">
+    <button onclick="buscarVersiculo()">Buscando</button>
+   <div id="resultado"class="resultado"></div>
+    </div>
+    <div class="temas-disponibles">
+            <h2>Temas Disponibles</h2>
+            <ul id="listaTemas">
+                </ul>
+        </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
